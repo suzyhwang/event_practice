@@ -1,8 +1,15 @@
-let h1 = document.querySelector("div.clicker:first-child h1")
+const loginInput = document.querySelector("#login-form input");
+const loginForm = document.querySelector("#login-form");
 
 
-function handleH1Click(){
-  h1.classList.toggle("clicked");
+function onLoginSubmit(event){
+  event.preventDefault();
+  const username = loginInput.value;
+  loginForm.classList.add("hidden");
+  console.log(username);
 }
 
-h1.addEventListener("click", handleH1Click);
+
+
+loginForm.addEventListener("submit", onLoginSubmit);
+
