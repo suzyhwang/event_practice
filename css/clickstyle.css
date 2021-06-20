@@ -1,4 +1,38 @@
 
+*{
+    text-align: center;
+}
 .hidden {
     display: none;
+}
+
+#clock {
+    font-size: 10vh;
+}
+
+#greeting {
+    font-size: 5vh;
+}
+
+input {
+    width: 600px;
+    height: 50px;
+    font-size: 3vh;
+}
+
+ul {
+    list-style: none;
+    padding-left: 0px;
+}
+
+button {
+    margin: 10px;
+}
+
+#quote {
+    margin: 50px;
+}
+
+#weather {
+    margin: 30px;
 }
